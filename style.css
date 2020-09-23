@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    font-family: "Segoe MDL2 Assets";
+}
+#app{
+    width: 80%;
+    margin: auto;
+}
+nav{
+ background: cornflowerblue;
+
+}
+nav ul{
+    padding: 0;
+    list-style: none;
+
+}
+nav ul li{
+    display: inline-block;
+
+}
+nav ul li a{
+    display: block;
+    padding: 10px 10px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+.row{
+    display: flex;
+}
+.col-md-8{
+    width: 80%;
+}
+.col-md-4{
+    width: 20%;
+}
